@@ -1,0 +1,1 @@
+for filename in part*; do mongoimport --db mydb --collection logs --host localhost:27021 --file "${filename}"; done
